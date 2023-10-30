@@ -68,7 +68,7 @@ public class RoundMovie implements ActionListener{
 		
 	
 		
-		OriginalIcon = new ImageIcon(movie+".jpg");
+		OriginalIcon = new ImageIcon("MoviePoster//"+movie+".jpg");
 		Image scaledImage = OriginalIcon.getImage().getScaledInstance(imageWidth, imageHeight, Image.SCALE_SMOOTH);
 		icon = new ImageIcon(scaledImage); 
 		botIcon = new JButton(icon);

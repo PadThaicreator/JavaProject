@@ -56,7 +56,7 @@ public class MainPage implements ActionListener{
 				//System.out.println(MovieName[amountMovie]);
 				//MovieIcon[++amountMovie] = new ImageIcon(movieName+".jpg"); 
 				
-				OriginalIcon = new ImageIcon(MovieName[amountMovie]+".jpg");
+				OriginalIcon = new ImageIcon("MoviePoster//"+MovieName[amountMovie]+".jpg");
 				Dimension botSize = new Dimension(imageWidth, imageHeight);
 				
 
