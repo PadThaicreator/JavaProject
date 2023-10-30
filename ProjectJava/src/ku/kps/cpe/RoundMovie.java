@@ -97,9 +97,9 @@ public class RoundMovie implements ActionListener{
 		int y = 50;
 		int nextLine = 0;
 		String line;
-		int i=0;
+		
 		while((line = br.readLine())!= null)
-		{	i++;
+		{	
 			
 			
 		
